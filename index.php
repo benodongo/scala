@@ -30,6 +30,7 @@ require_once( 'admin/cms.php' );
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     </cms:editable>
+    <cms:editable name="course_one_img" type="image"/>
     <cms:editable name='course_two_title' type='richtext'>
         Web Designs and Development
     </cms:editable>
@@ -37,6 +38,7 @@ require_once( 'admin/cms.php' );
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     </cms:editable>
+    <cms:editable name="course_two_img" type="image"/>
     <cms:editable name='course_three_title' type='richtext'>
         ICDL
     </cms:editable>
@@ -44,6 +46,7 @@ require_once( 'admin/cms.php' );
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     </cms:editable>
+    <cms:editable name="course_three_img" type="image"/>
     <cms:editable name='course_four_title' type='richtext'>
         Oracle JAVA Certification
     </cms:editable>
@@ -51,6 +54,7 @@ require_once( 'admin/cms.php' );
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     </cms:editable>
+    <cms:editable name="course_four_img" type="image"/>
     <cms:editable name='course_five_title' type='richtext'>
         Information Security
     </cms:editable>
@@ -58,6 +62,7 @@ require_once( 'admin/cms.php' );
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     </cms:editable>
+    <cms:editable name="course_five_img" type="image"/>
     <cms:editable name='course_six_title' type='richtext'>
         Networking and Network Management
     </cms:editable>
@@ -65,6 +70,7 @@ require_once( 'admin/cms.php' );
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     </cms:editable>
+    <cms:editable name="course_six_img" type="image"/>
 
 
 
@@ -107,186 +113,10 @@ require_once( 'admin/cms.php' );
   <body class="university-1x">
     <div class="edufair-container">
 	
-		<!-- Top menu -->
-		<div class="top-menu">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6">
-						<div class="top-menu-left">
-							<p>Need help?</p>
-							<b><i class="fa fa-phone"></i> (+254) 723 456 789</b>
-							<b><i class="fa fa-envelope"></i> info@scala.com</b>
-						</div>				
-					</div>				
-					<div class="col-md-6">
-						<div class="top-menu-right">
-						<a href="#" class="" data-toggle="modal" data-target="#regiater"><i class="fa fa-user"></i> Register</a>
-						<a href="#" class="" data-toggle="modal" data-target="#log-in"><i class="fa fa-lock"></i> Login</a>
-						
-						</div>				
-					</div>
-					<div class="col-md-12">
-						<!-- Modal -->
-						<div class="modal fade" id="regiater" tabindex="-1" role="dialog">
-						  <div class="modal-dialog modal-sm" role="document">
-							<div class="modal-content">
-														  
-							  <div class="modal-body">
-								<div class="edufair-subscription-1x">
-									<div class="edufair-subscription-title-1x">
-										<h3>Register Now</h3>
-									</div>
-									<div class="edufair-subscription-form-1x">							
-										<form action="php/contact-form.php" method="POST">
-											<div class="col-md-12">
-												<a href="#" class="edufair-btn-larg btn-block facebook-login"><i class="fa fa-facebook"></i> Register with Facebook </a>
-											</div>
-											<div class="col-md-12">
-												<a href="#" class="edufair-btn-larg btn-block google-login"><i class="fa fa-google"></i> Register with Google </a>
-											</div>
-											<div class="col-md-12">
-												<div class="form-group">									    				    	
-													<input type="text" id="name" class="form-control" placeholder="Name" required >
-												</div>
-											</div>
-											<div class="col-md-12">
-												<div class="form-group">									    										    
-													<input type="email" class="form-control" id="email1" placeholder="Email" required >
-												</div>
-											</div>
-											<div class="col-md-12">
-												<div class="form-group">									    										    
-													<input type="password" class="form-control" id="password1" placeholder="Password" required >
-												</div>
-											</div>
-											<div class="col-md-12">
-												<a href="#" class="edufair-btn-larg btn-block"> Submit </a>
-											</div>
-											<div class="col-md-12 terms-condition">
-												<p>Already a member? <a href="#" class="" data-toggle="modal" data-target="#log-in"> Login </a></p>
-												<h6>By signing up, you agree to our <a href="#" class=""> Terms of Use and Privacy Policy. </a></h6>
-											</div>
-										</form>	
-									</div>			
-								</div>	
-							  </div>
-							  
-							</div>
-						  </div>
-						</div>
-						
-						<!-- Modal -->
-						<div class="modal fade" id="log-in" tabindex="-1" role="dialog">
-						  <div class="modal-dialog modal-sm" role="document">
-							<div class="modal-content">
-														  
-							  <div class="modal-body">
-								<div class="edufair-subscription-1x">
-									<div class="edufair-subscription-title-1x">
-										<h3>Login</h3>
-									</div>
-									<div class="edufair-subscription-form-1x">							
-										<form action="php/contact-form.php" method="POST">
-											<div class="col-md-12">
-												<a href="#" class="edufair-btn-larg btn-block facebook-login"><i class="fa fa-facebook"></i> Login with Facebook </a>
-											</div>
-											<div class="col-md-12">
-												<a href="#" class="edufair-btn-larg btn-block google-login"><i class="fa fa-google"></i> Login with Google </a>
-											</div>
-											<div class="col-md-12">
-												<div class="form-group">									    										    
-													<input type="email" class="form-control" id="email2" placeholder="Email" required >
-												</div>
-											</div>
-											<div class="col-md-12">
-												<div class="form-group">									    										    
-													<input type="password" class="form-control" id="password2" placeholder="Password" required >
-												</div>
-											</div>
-											<div class="col-md-12">
-												<a href="#" class="edufair-btn-larg btn-block"> Login </a>
-											</div>
-											<div class="col-md-12 terms-condition">
-												<p>Or <a href="#" class=""> Forget Password </a></p>
-												<h6>By signing up, you agree to our <a href="#" class=""> Terms of Use and Privacy Policy. </a></h6>
-											</div>
-
-										</form>	
-									</div>			
-								</div>	
-							  </div>
-							  
-							</div>
-						  </div>
-						</div>					
-					</div>
-					
-				</div>				
-			</div>
-		</div>
-		<!-- End top menu -->
-		
-		<!-- Start Main Nav -->
-		<div class="edufair-header">		
-			<nav class="navbar navbar-default edufair-nav">
-				<div class="container">	
-				  <div class="container-fluid">
-					<!-- Brand and toggle get grouped for better mobile display -->
-					<div class="navbar-header">
-					  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-						<span class="sr-only">Toggle navigation</span>				
-						<i class="fa fa-align-right fa-2"></i>
-					  </button>
-					  
-					  <a class="navbar-brand edufair-brand edufair-light" href="#"><img src="images/scala-light.png" alt="Logo"></a>
-					  <a class="navbar-brand edufair-brand edufair-dark" href="#"><img src="images/scala.png" alt="Logo"></a>
-					  
-					</div>
-
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-						  
-					  
-					  <ul class="nav navbar-nav navbar-right">					
-						<li class="dropdown">
-						  <a href="index.php">Home</a>
-						</li>
-						
-						<li class="dropdown">
-						  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Course  <i class="fa fa-angle-down"></i></a>
-						  <ul class="dropdown-menu">
-							<li><a href="courses.php">All Courses</a></li>
-							<li><a href="#">IT Courses</a></li>
-							<li><a href="#"></a></li>
-						  </ul>						
-						</li>
-						  <li><a href="about-us.php">About Us</a></li>
-						
-						<li class="dropdown">
-						  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Apply <i class="fa fa-angle-down"></i></a>
-						  <ul class="dropdown-menu">												  
-							<li><a href="comingsoon.php">Registration</a></li>
-						  </ul>
-						</li>
-						<li><a href="contact-us.php">Contact Us</a></li>
-					  </ul>
-
-					  <div class="edufair-cart hidden-xs">
-						<div class="box">
-						  <div class="container-2">
-							  <span class="icon"><i class="fa fa-search"></i></span>
-							  <input type="search" id="search" placeholder="Search..." />
-						  </div>
-						</div>
-					  
-					</div><!-- /.navbar-collapse -->
-					
-				  </div><!-- /.container-fluid -->
-				</div>
-			</nav>
-		</div>
-			<!-- End Main Menu -->
-				
+<!--        include the header file-->
+        <?php
+        require ('inc/header.php');
+        ?>
 
 			<!-- Start main slider -->
 			<div id="carousel-example-generic" class="carousel slide edufair-slide carousel-fade" data-ride="carousel"> 
@@ -417,7 +247,7 @@ require_once( 'admin/cms.php' );
 						</div>
 					</div>
 					<div class="col-md-4 wow fadeInDown" data-wow-duration="2s" data-wow-delay="0.3s">
-						<div class="media edufair-single-features  edufair-single-features-6x">
+						<div class="media edufair-single-features  edufair-single-features-2x">
 							<div class="media-left">
 								<img src="images/kindergarten/icon7.png" alt="" />
 							</div>
@@ -465,7 +295,7 @@ require_once( 'admin/cms.php' );
 								<div class="col-md-4">						
 									<div class="edufair-single-blog">						
 										<div class="edufair-blog-overlay">
-										  <img src="images/university/course1.jpg" alt="Avatar" class="edufair-blog-image">
+										  <img src="<cms:show course_one_img/>" alt="Avatar" class="edufair-blog-image" style="height: 170px">
 										  <div class="edufair-blog-middle">
 											<div class="blog-share">													
 												<ul>														
@@ -493,7 +323,7 @@ require_once( 'admin/cms.php' );
 								<div class="col-md-4">						
 									<div class="edufair-single-blog">						
 										<div class="edufair-blog-overlay">
-										  <img src="images/university/course2.jpg" alt="Avatar" class="edufair-blog-image">
+										  <img src="<cms:show course_two_img/>" alt="Avatar" class="edufair-blog-image" style="height: 170px">
 										  <div class="edufair-blog-middle">
 											<div class="blog-share">													
 												<ul>														
@@ -521,7 +351,7 @@ require_once( 'admin/cms.php' );
 								<div class="col-md-4">						
 									<div class="edufair-single-blog">						
 										<div class="edufair-blog-overlay">
-										  <img src="images/university/course3.jpg" alt="Avatar" class="edufair-blog-image">
+										  <img src="<cms:show course_three_img/>" alt="Avatar" class="edufair-blog-image" style="height: 170px">
 										  <div class="edufair-blog-middle">
 											<div class="blog-share">													
 												<ul>														
@@ -554,7 +384,7 @@ require_once( 'admin/cms.php' );
 								<div class="col-md-4">						
 									<div class="edufair-single-blog">						
 										<div class="edufair-blog-overlay">
-										  <img src="images/university/course4.jpg" alt="Avatar" class="edufair-blog-image">
+										  <img src="<cms:show course_four_img/>" alt="Avatar" class="edufair-blog-image" style="height: 170px">
 										  <div class="edufair-blog-middle">
 											<div class="blog-share">													
 												<ul>														
@@ -582,7 +412,7 @@ require_once( 'admin/cms.php' );
 								<div class="col-md-4">						
 									<div class="edufair-single-blog">						
 										<div class="edufair-blog-overlay">
-										  <img src="images/university/course5.jpg" alt="Avatar" class="edufair-blog-image">
+										  <img src="<cms:show course_five_img/>" alt="Avatar" class="edufair-blog-image" style="height: 170px">
 										  <div class="edufair-blog-middle">
 											<div class="blog-share">													
 												<ul>														
@@ -610,7 +440,7 @@ require_once( 'admin/cms.php' );
 								<div class="col-md-4">						
 									<div class="edufair-single-blog">						
 										<div class="edufair-blog-overlay">
-										  <img src="images/university/course6.jpg" alt="Avatar" class="edufair-blog-image">
+										  <img src="<cms:show course_six_img/>" alt="Avatar" class="edufair-blog-image" style="height: 170px"   >
 										  <div class="edufair-blog-middle">
 											<div class="blog-share">													
 												<ul>														
@@ -711,7 +541,7 @@ require_once( 'admin/cms.php' );
 						<div class="col-md-4">
 							<div class="single-events-image-1x">
 								<div class="edufair-course-overlay">
-									<img src="images/university/course2.jpg" alt="Avatar" class="edufair-course-image edufair-event-image">
+									<img src="images/scala.png" alt="Avatar" class="edufair-course-image edufair-event-image">
 									<div class="edufair-course-middle">
 										<a href="#" class="edufair-course-text">Read More</a>
 									</div>
@@ -744,7 +574,7 @@ require_once( 'admin/cms.php' );
 						<div class="col-md-4">
 							<div class="single-events-image-1x">
 								<div class="edufair-course-overlay">
-									<img src="images/university/course5.jpg" alt="Avatar" class="edufair-course-image edufair-event-image">
+									<img src="images/scala.png" alt="Avatar" class="edufair-course-image edufair-event-image">
 									<div class="edufair-course-middle">
 										<a href="#" class="edufair-course-text">Read More</a>
 									</div>
@@ -777,7 +607,7 @@ require_once( 'admin/cms.php' );
 						<div class="col-md-4">
 							<div class="single-events-image-1x">
 								<div class="edufair-course-overlay">
-									<img src="images/university/course6.jpg" alt="Avatar" class="edufair-course-image edufair-event-image">
+									<img src="images/scala.png" alt="Avatar" class="edufair-course-image edufair-event-image">
 									<div class="edufair-course-middle">
 										<a href="#" class="edufair-course-text">Read More</a>
 									</div>
@@ -792,84 +622,9 @@ require_once( 'admin/cms.php' );
 
 		<div class="padding-bottom-large"></div>
 		
-		<!-- Start Footer -->
-		<footer class="edufair-footer-1x">		
-			
-			  <div class="edufair-footer-content">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-12 edufair-footer-subscription">	
-								
-							</div>	
-							<div class="col-md-4 edufair-footer-address">	
-								<a href="#"><img src="images/scala.png" alt="Logo"></a><br>
-								
-									<p> <i class="fa fa-phone"></i>(00) 123 456 789 </p>				
-									<p> <i class="fa fa-envelope"></i>info@scala.com </p>
-									<p> <i class="fa fa-map-marker"></i> Mlolongo ,Mombasa Road<br> Machakos County </p>
-							</div>
-							<div class="col-md-2">
-								<h5> Company </h5>
-								<ul>
-									<li><a href="#"> Help Center </a></li>				
-									<li><a href="#"> Student support </a></li>				
-									<li><a href="#"> Language Packs </a></li>				
-									<li><a href="#"> Privacy policy </a></li>				
-									<li><a href="#"> Become a Teacher </a></li>	
-								</ul>
-							</div>
-							
-							<div class="col-md-2">	
-								<h5> Useful Links </h5>
-								<ul>
-									<li><a href="#"> Help Center </a></li>				
-									<li><a href="#"> Student support </a></li>				
-									<li><a href="#"> Language Packs </a></li>				
-									<li><a href="#"> Privacy policy </a></li>				
-									<li><a href="#"> Become a Teacher </a></li>				
-								</ul>			
-							</div>
-							<div class="col-md-2">	
-								<h5> Support </h5>
-								<ul>
-									<li><a href="#"> Help Center </a></li>				
-									<li><a href="#"> Student support </a></li>				
-									<li><a href="#"> Language Packs </a></li>				
-									<li><a href="#"> Privacy policy </a></li>				
-									<li><a href="#"> Become a Teacher </a></li>				
-								</ul>			
-							</div>
-							<div class="col-md-2">	
-								<h5> Community </h5>
-								<ul>
-									<li><a href="#"> Help Center </a></li>				
-									<li><a href="#"> Student support </a></li>				
-									<li><a href="#"> Language Packs </a></li>				
-									<li><a href="#"> Privacy policy </a></li>				
-									<li><a href="#"> Become a Teacher </a></li>				
-								</ul>			
-							</div>					
-							
-							<div class="col-md-12 footer-info">	
-								<div class="row">	
-									<div class="col-md-6 footer-info-left">	
-										<p>All Rights Reserved <a href="#"> Scala Institute </a></p>
-									</div>			
-									<div class="col-md-6 footer-info-right">
-										<ul>
-											<li><a href="#"> <i class="fa fa-facebook"></i> </a></li>										
-											<li><a href="#"> <i class="fa fa-twitter"></i> </a></li>											
-											<li><a href="#"> <i class="fa fa-google"></i> </a></li>									
-											<li><a href="#"> <i class="fa fa-linkedin"></i> </a></li>											
-										</ul>					
-									</div>					
-								</div>					
-							</div>					
-						</div>					
-					</div>			
-			  </div>		  
-		</footer>	
-		<!-- End Footer -->	
+	<?php
+    require ('inc/footer.php');
+	?>
 	</div>
 
 		

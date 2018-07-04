@@ -458,7 +458,7 @@ button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-	border-color: #1EA69A;
+	border-color: #082969;
 }
 
 button:focus,
@@ -515,8 +515,8 @@ input[type="datetime-local"]:focus,
 input[type="color"]:focus,
 textarea:focus,
 textarea.form-control:focus{
-	border-color: #1EA69A;
-    box-shadow: 0 0px 0px #1EA69A inset, 0 0 0px #1EA69A;
+	border-color: #082969;
+    box-shadow: 0 0px 0px #082969 inset, 0 0 0px #082969;
 }
 
 textarea {
@@ -540,7 +540,7 @@ a:visited {
 a:hover,
 a:focus,
 a:active {
-	color: #1EA69A;
+	color: #082969;
 	text-decoration: none;
 }
 
@@ -561,12 +561,12 @@ a:active {
 
 /* text selector */
 ::-moz-selection {
-    background: #1EA69A;
+    background: #082969;
     color: #ffffff;
     text-shadow: none;
 }
 ::selection {
-    background: #1EA69A;
+    background: #082969;
     color: #ffffff;
     text-shadow: none;
 }
@@ -658,7 +658,7 @@ a.edufair-btn-larg:hover {
 }
 .edufair-btn-larg:before,
 a.edufair-btn-larg:before {
-	background: #1EA69A;
+	background: #082969;
 	color: #262626;
 	content: "";
 	height: 0;
@@ -673,7 +673,7 @@ a.edufair-btn-larg:before {
 	transition: all .3s ease;
 }
 .edufair-contact-form .edufair-btn-larg{
-    background: #1EA69A;
+    background: #082969;
     color: #f1f1f1;
 }
 .edufair-contact-form .edufair-btn-larg:before{
@@ -693,7 +693,7 @@ a.edufair-btn-larg:hover:before {
 }
 .events-1x .edufair-btn-larg,
 .university-1x a.edufair-btn-larg{
-	background: #1EA69A ;
+	background: #082969 ;
     color: #f1f1f1;
 }
 .events-1x  a.edufair-btn-larg:hover:before,
@@ -739,7 +739,7 @@ a.edufair-btn-larg-round:hover {
 }
 .edufair-btn-larg-round:before,
 a.edufair-btn-larg-round:before {
-	background: #1EA69A;
+	background: #082969;
 	color: #262626;
 	content: "";
 	width: 0;
@@ -762,7 +762,7 @@ a.edufair-btn-larg-round:before {
 .university-1x a.edufair-btn-larg-round {
     color: #f1f1f1;
     font-weight: 500;
-    background: #1EA69A;
+    background: #082969;
 }
 .university-2x a.edufair-btn-larg-round:hover,
 .university-1x a.edufair-btn-larg-round:hover {
@@ -786,7 +786,7 @@ a.edufair-btn-larg-round:hover:before {
 .edufair-btn-middle,
 .edufair-btn-middle{
 	background:#feea0e;	
-	border: 1px solid #1EA69A;
+	border: 1px solid #082969;
 	border-radius: 1px;
 	padding: 10px 30px;	
 	text-transform: uppercase;
@@ -823,7 +823,7 @@ a.edufair-btn-larg-round:hover:before {
     left: 0;
     bottom: -20px;
     width: 70px;
-    border-bottom: 3px solid #1EA69A;
+    border-bottom: 3px solid #082969;
     transform: scaleX(1);
     transition: all .3s ease-in-out;
 }
@@ -837,7 +837,7 @@ a.edufair-btn-larg-round:hover:before {
 .edufair-countdown-timer-1x:hover .edufair-main-title:before,
 .edufair-course-1x:hover .edufair-main-title:before{
 	width: 70px;
-	border-bottom: 3px solid #1EA69A;
+	border-bottom: 3px solid #082969;
     transform: scaleX(1);
 }
 .edufair-pricing-table-1x:hover .edufair-main-title:before {
@@ -931,7 +931,7 @@ a.edufair-btn-larg-round:hover:before {
 .edufair-nav .dropdown-menu>li>a:focus,
 .dropdown-menu>li>a:hover{
 	background-color: transparent;
-	color: #1EA69A;
+	color: #082969;
 	padding-left: 25px;
 	
 }
@@ -961,7 +961,7 @@ a.edufair-btn-larg-round:hover:before {
 .edufair-nav .navbar-toggle{
 	border-color: #262626;
 	background-color: #262626;
-	color: #1EA69A;
+	color: #082969;
 	border-radius: 2px;
 	padding: 5px 10px;
 	font-size: 15px;
@@ -970,7 +970,7 @@ a.edufair-btn-larg-round:hover:before {
 .edufair-nav .navbar-toggle:hover{
 	border-color: #262626;
 	background-color: #262626;
-	color: #1EA69A;
+	color: #082969;
 }
 
 /* Is sticky */
@@ -1090,7 +1090,7 @@ a.edufair-btn-larg-round:hover:before {
  -webkit-border-radius: 0;
  -moz-border-radius: 0;
  border-radius: 0;
- color: #1EA69A;
+ color: #082969;
  font-family: 'Montserrat', sans-serif;
  font-weight: 700;
  -webkit-transition: .55s ease;
@@ -1198,7 +1198,7 @@ a.edufair-btn-larg-round:hover:before {
 /* The typewriter cursor effect */
 @keyframes blink-caret {
 	from, to { border-color: transparent }
-	50% { border-color: #1EA69A }
+	50% { border-color: #082969 }
 }
 .animated {
   animation-duration: 2s;
@@ -1365,22 +1365,13 @@ a.edufair-btn-larg-round:hover:before {
 	transition: 0.3s all ease;
 }
 .edufair-single-features-1x{
-	background: linear-gradient(rgba(30, 166, 154, 0.9),rgba(30, 166, 154, 0.9)),url('images/university/course1.jpg');
+	background: linear-gradient(rgba(8, 41, 105, 0.9), rgba(8, 41, 105, 0.9)),url('images/university/course1.jpg');
 }
 .edufair-single-features-2x{
-	background: linear-gradient(rgba(30, 166, 154, 0.9),rgba(30, 166, 154, 0.9)),url('images/university/course2.jpg');
-}
-.edufair-single-features-3x{
-	background: linear-gradient(rgba(30, 166, 154, 0.9),rgba(30, 166, 154, 0.9)),url('images/university/course5.jpg');
-}
-.edufair-single-features-4x{
-	background: linear-gradient(rgba(30, 166, 154, 0.9),rgba(30, 166, 154, 0.9)),url('images/university/course4.jpg');
-}
-.edufair-single-features-5x{
-	background: linear-gradient(rgba(30, 166, 154, 0.9),rgba(30, 166, 154, 0.9)),url('images/university/course5.jpg');
+	background: linear-gradient(rgba(247, 74, 18, 0.9), rgba(247, 74, 18, 0.9)),url('images/university/course2.jpg');
 }
 .edufair-single-features-6x{
-	background: linear-gradient(rgba(30, 166, 154, 0.9),rgba(30, 166, 154, 0.9)),url('images/university/course6.jpg');
+	background: linear-gradient(rgba(8, 41, 105, 0.9), rgba(8, 41, 105, 0.9)),url('images/university/course1.jpg');
 }
 .edufair-single-features .media-left {
     display: block;
@@ -1443,7 +1434,7 @@ a.edufair-btn-larg-round:hover:before {
 	opacity: 1;
 }
 a.edufair-course-text {
-    background-color: #1EA69A;
+    background-color: #082969;
     color: #f1f1f1;
     font-size: 12px;
     text-transform: uppercase;
@@ -1489,7 +1480,7 @@ a.edufair-course-text:hover{
     line-height: 30px;
 }
 .edufair-single-course:hover h3{
-	color: #1EA69A;
+	color: #082969;
 }
 .course-footer {
 	border-top: 1px solid #e7e7e7;
@@ -1501,7 +1492,7 @@ a.edufair-course-text:hover{
 }
 .course-footer strong{
 	float: right;
-	color: #1EA69A;
+	color: #082969;
 }
 
 /*--------------------------------------------------------------
@@ -1555,7 +1546,7 @@ a.edufair-course-text:hover{
 	width:10%;
 }
 .edufair-countdown-timer-1x:hover .edufair-main-title:before{
-	border-bottom: 3px solid #1EA69A;
+	border-bottom: 3px solid #082969;
 }
 .edufair-countdown {
     text-align: center; 
@@ -1613,7 +1604,7 @@ a.edufair-course-text:hover{
 	padding-bottom: 40px;
 }
 .edufair-subscription-title-1x {
-	background: #1EA69A;
+	background: #082969;
 	padding: 15px;
 	text-align: center;
 }
@@ -1647,7 +1638,7 @@ a.edufair-course-text:hover{
 
 .modal a.edufair-btn-larg{
 	margin-top: 10px;
-	background: #1EA69A;
+	background: #082969;
 	padding: 13px 0px;
 	color: #f1f1f1;
 }
@@ -1671,7 +1662,7 @@ a.edufair-course-text:hover{
 	font-size: 16px;
     color: #fff;
     font-weight: 400;
-    border: 0 solid #1EA69A;
+    border: 0 solid #082969;
     border-radius: 0;
     padding: 0;
     margin-right: 5px;
@@ -1695,10 +1686,10 @@ a.edufair-course-text:hover{
 .online-course-2x .modal .edufair-subscription-form-1x .terms-condition a,
 .online-course-1x .modal .edufair-subscription-form-1x .terms-condition a{
 	font-weight: 400;
-	color: #1EA69A !important;
+	color: #082969 !important;
 }
 .modal .edufair-subscription-form-1x .terms-condition a{
-	color: #1EA69A !important;
+	color: #082969 !important;
 }
 
 .modal a.facebook-login{
@@ -1734,7 +1725,7 @@ a.edufair-course-text:hover{
 	margin-top: 60px !important;
 }
 .event-container-1x :hover h4{
-	color: #1EA69A; 
+	color: #082969; 
 }
 .kindergarten-1x .event-container-1x :hover h4{
 	color: #ffb606; 
@@ -1744,11 +1735,11 @@ a.edufair-course-text:hover{
 }
 .single-events-1x b{
 	font-size: 40px;
-	color: #1EA69A;
+	color: #082969;
 	margin-right: 50px;
 }
 .university-1x .single-events-1x b{
-	color: #1EA69A;
+	color: #082969;
 	line-height: 30px;	
 }
 .kindergarten-1x .single-events-1x i,
@@ -1759,11 +1750,11 @@ a.edufair-course-text:hover{
 }
 .single-events-1x span{
 	font-size: 20px;
-	color: #1EA69A;
+	color: #082969;
 }
 .single-events-1x i{
 	font-size: 15px;
-	color: #1EA69A;
+	color: #082969;
 	padding-right: 5px;
 }
 .kindergarten-1x .single-events-1x i{
@@ -1796,7 +1787,7 @@ a.edufair-course-text:hover{
 	margin-top: 40px;
 }
 .event-cost span{
-	color: #1EA69A;
+	color: #082969;
 	font-size: 15px;
 	font-weight: 700;
 }
@@ -1813,7 +1804,7 @@ a.edufair-course-text:hover{
 	position: relative;
 }
 .edufair-toolbar .active{
-	color: #1EA69A;
+	color: #082969;
 	transition: all .3s ease-in-out;
 }
 #edufair-portfolio {  
@@ -1945,7 +1936,7 @@ a.edufair-course-text:hover{
 	padding: 5px 10px;
 }
 .hovereffect4 a i:hover{
-	color: #1EA69A;
+	color: #082969;
 }
 
 .kindergarten-1x .hovereffect4 h2{
@@ -2040,12 +2031,12 @@ a.edufair-course-text:hover{
 	left: 47%;
 }
 .edufair-testimonial-timer-1x:hover .edufair-main-title:before{
-	border-bottom: 3px solid #1EA69A;
+	border-bottom: 3px solid #082969;
 }
 
 .university-2x .edufair-testimonial-timer-1x .edufair-testimonial-slider b,
 .university-1x .edufair-testimonial-timer-1x .edufair-testimonial-slider b {
-    color: #1EA69A;
+    color: #082969;
     font-size: 17px;
 }
 .university-2x .edufair-testimonial-timer-1x .edufair-testimonial-slider span,
@@ -2110,7 +2101,7 @@ a.edufair-blog-text {}
 	transition: all .3s ease;
 }
 .edufair-single-blog:hover h3{
-	color: #1EA69A;
+	color: #082969;
 }
 .kindergarten-1x .edufair-single-blog:hover h3{
 	color: #ffb606;
@@ -2139,7 +2130,7 @@ a.edufair-blog-text {}
 	color: #f1f1f1;
 }
 .blog-share ul li:hover{
-	color: #1EA69A;
+	color: #082969;
 }
 .kindergarten-1x .blog-share ul li:hover{
 	color: #ffb606;
@@ -2258,7 +2249,7 @@ a.edufair-blog-text {}
 	padding: 0;
 }
 .modal-content{
-	background-color: #1EA69A;
+	background-color: #082969;
 	border-radius: 0 !important;
 }
 
@@ -2300,7 +2291,7 @@ a.edufair-blog-text {}
 	opacity: 1;
 }
 a.edufair-shop-text {
-    background-color: #1EA69A;
+    background-color: #082969;
     color: #f1f1f1;
     font-size: 12px;
     text-transform: uppercase;
@@ -2329,7 +2320,7 @@ a.edufair-shop-text {
 	transition: .5s ease;
 }
 .shop-content .media-left a:hover{
-    color: #1EA69A;
+    color: #082969;
 }
 .shop-content h4 {
     
@@ -2346,10 +2337,10 @@ a.edufair-shop-cart{
 	transition: .5s ease;
 }
 a.edufair-shop-cart:hover{
-    color: #1EA69A;
+    color: #082969;
 }
 .edufair-single-shop:hover .shop-content .media-left a{
-	color: #1EA69A;
+	color: #082969;
 }
 
 /*--------------------------------------------------------------
@@ -2370,7 +2361,7 @@ a.edufair-shop-cart:hover{
 	transition: all .3s ease;
 }
 .backtotop:hover{
-	background: #1EA69A;
+	background: #082969;
 	color: #f1f1f1;
 }
 .high-school-1x .backtotop:hover,
@@ -2401,7 +2392,7 @@ a.edufair-shop-cart:hover{
 	color: #FF6962;
 }
 .edufair-footer-address i{
-    color: #1EA69A;
+    color: #082969;
     margin-right: 15px;
 }
 .kindergarten-1x .edufair-footer-address i{
@@ -2432,7 +2423,7 @@ a.edufair-shop-cart:hover{
 }
 .edufair-footer-content ul li a:hover{
 	transition: .5s ease;
-	color: #1EA69A;
+	color: #082969;
 	opacity: 1;
 }
 .kindergarten-1x .edufair-footer-content ul li a:hover{
@@ -2451,7 +2442,7 @@ a.edufair-shop-cart:hover{
 	font-weight: 400;
 } 
 .footer-info-left a{
-	color: #1EA69A;
+	color: #082969;
 	transition: all 0.3s ease;
 } 
 .footer-info-left a:hover{
@@ -2498,7 +2489,7 @@ a.edufair-shop-cart:hover{
 	margin-right: 0;
 }
 .footer-info-right ul li:hover{
-	background: #1EA69A;	
+	background: #082969;	
 }
 
 .app-button{
@@ -2527,7 +2518,7 @@ a.edufair-shop-cart:hover{
 	opacity: 1;
 }
 .edufair-footer-2x .edufair-footer-content ul li a:hover{
-    color: #1EA69A;
+    color: #082969;
 }
 .edufair-footer-2x .edufair-footer-content h5{
 	color: #262626;
@@ -2546,7 +2537,7 @@ a.edufair-shop-cart:hover{
 }
 .edufair-footer-2x .footer-info-right ul li:hover{
 	color: #f1f1f1;
-	background: #1EA69A;
+	background: #082969;
 	border: none;	
 }
 .edufair-footer-2x .footer-info-right ul li:hover i{
@@ -2559,7 +2550,7 @@ a.edufair-shop-cart:hover{
 	color: #7a7a7a;
 }
 .edufair-footer-2x .footer-info-left a{
-	color: #1EA69A;
+	color: #082969;
 	transition: all 0.3s ease;
 }
 .edufair-footer-2x .footer-info-left a:hover{
@@ -2583,7 +2574,7 @@ a.edufair-shop-cart:hover{
 .edufair-single-caption h2{
     font-size: 50px;
 	animation: none;
-	border-right: 0px solid #1EA69A;
+	border-right: 0px solid #082969;
 	padding-bottom: 15px;
 }
 .edufair-single-breadcrumbs{
@@ -2640,12 +2631,12 @@ a.edufair-shop-cart:hover{
 	transition: all .3s ease;
 }
 .course-teacher-details a:hover{
-	color: #1EA69A;
+	color: #082969;
 }
 .course-details-price strong{
 	float: right;
 	font-size: 30px;
-	color: #1EA69A;
+	color: #082969;
 	font-weight: 700;
 	padding-top: 15px;
 }
@@ -2660,7 +2651,7 @@ a.edufair-shop-cart:hover{
 .course-review i{
 	font-size: 15px;
 	margin-top: 6px;
-	color: #1EA69A;
+	color: #082969;
 }
 .course-banner{}
 .course-banner img{
@@ -2698,7 +2689,7 @@ a.edufair-shop-cart:hover{
 	border-bottom: 0 solid #eee !important;
 }
 .course-description-nav>li.active>a{
-	background: #1EA69A !important;
+	background: #082969 !important;
 }
 .course-description-nav>.active>a{
 	color: #f1f1f1 !important;
@@ -2740,7 +2731,7 @@ a.edufair-shop-cart:hover{
 }
 .course-description-tab-outcomes ul li i{
 	font-size: 15px;
-	color: #1EA69A;
+	color: #082969;
 	margin-right: 10px;
 }
 .course-description-tab-share{
@@ -2757,8 +2748,8 @@ a.edufair-shop-cart:hover{
 	font-size: 15px;
 	font-weight: 400;	
 	margin-right: 10px !important;		
-	background: #1EA69A;
-	border: 1px solid #1EA69A;
+	background: #082969;
+	border: 1px solid #082969;
 	border-radius: 50%;
 	width: 33px;
 	height: 33px;
@@ -2824,7 +2815,7 @@ a.edufair-shop-cart:hover{
 }
 .course-description-tab-right ul li i{
 	font-size: 15px;
-	color: #1EA69A;
+	color: #082969;
 	margin-right: 10px;
 }
 .curriculum-tab h2{
@@ -2854,7 +2845,7 @@ a.edufair-shop-cart:hover{
     margin: 10px 0 10px 30px;
 }
 .instructors-tab .media-body a h4:hover{
-	color: #1EA69A;
+	color: #082969;
 }
 .instructors-tab .media-body span{
     font-size: 15px;
@@ -2890,12 +2881,12 @@ a.edufair-shop-cart:hover{
     display: block;
     font-size: 70px;
     font-weight: 700;
-    color: #1EA69A;
+    color: #082969;
     margin-bottom: 30px;
 }
 .review-tab-top  .media-left span{}
 .review-tab-top  .media-left span i{
-	color: #1EA69A;
+	color: #082969;
 }
 .review-tab-top .media-body{
     padding: 30px 30px 10px 30px;
@@ -2908,7 +2899,7 @@ a.edufair-shop-cart:hover{
 	height: 10px;
 }
 .single-progress-bar .progress-bar{
-	background: #1EA69A;
+	background: #082969;
 }
 .single-progress-bar span{
     //float: right;
@@ -2925,7 +2916,7 @@ a.edufair-shop-cart:hover{
 }
 .review-tab .instructors-tab strong{
 	padding-left: 30px;
-	color: #1EA69A;
+	color: #082969;
 }
 
 /**************** All Course*****************/
@@ -2940,7 +2931,7 @@ a.edufair-shop-cart:hover{
 	font-weight: 700;
 	color: #f1f1f1;
 	margin-bottom: 20px;
-	background: #1EA69A;
+	background: #082969;
 	text-align: center;
 	padding: 20px 0;
 }
@@ -2965,7 +2956,7 @@ a.edufair-shop-cart:hover{
 }
 .all-course ul li i{
 	font-size: 15px;
-	color: #1EA69A;
+	color: #082969;
 	margin-right: 10px;
 }
 
@@ -3015,7 +3006,7 @@ a.edufair-shop-cart:hover{
 	opacity: 1;
 }
 a.edufair-related-course-text {
-    background-color: #1EA69A;
+    background-color: #082969;
     color: #f1f1f1;
     font-size: 12px;
     text-transform: uppercase;
@@ -3062,7 +3053,7 @@ a.edufair-related-course-text {
 	padding-top: 0;
 }
 .edufair-related-course:hover h3{
-	color: #1EA69A;
+	color: #082969;
 }
 .related-course-footer {
 	border-top: 1px solid #eee;
@@ -3075,7 +3066,7 @@ a.edufair-related-course-text {
 .related-course-footer strong,
 .related-course-footer del{
 	float: right;
-	color: #1EA69A;
+	color: #082969;
 	margin-left: 10px;
 }
 .related-course-footer del{
@@ -3123,7 +3114,7 @@ a.edufair-related-course-text {
 }
 .blog-description span{
 	float: left;
-	color: #1EA69A;
+	color: #082969;
 	font-size: 75px;
 	line-height: 60px;
 	padding-top: 4px;
@@ -3161,7 +3152,7 @@ a.edufair-related-course-text {
 	transition: all .3s ease;
 }
 .blog-description-tab-share ul li a i:hover{
-	color: #1EA69A;
+	color: #082969;
 }
 
 /* blog Tag */
@@ -3182,7 +3173,7 @@ a.edufair-related-course-text {
 	transition: all .3s ease;;
 }
 .blog-description-tag ul li a:hover{
-	color: #1EA69A;
+	color: #082969;
 }
 
 /* blog Right Sidebar */
@@ -3192,7 +3183,7 @@ a.edufair-related-course-text {
 .btn-search{
 	margin-top: 10px;
     height: 40px;
-    background: #1EA69A;
+    background: #082969;
 	border-radius: 0;
 	border: 0;
     color: #f1f1f1;
@@ -3217,7 +3208,7 @@ a.edufair-related-course-text {
 	transition: all .3s ease;;
 }
 .single-post-category ul li a:hover{
-	color: #1EA69A;
+	color: #082969;
 }
 .single-post-category ul li a span{
 	float: right;
@@ -3232,7 +3223,7 @@ a.edufair-related-course-text {
 	text-transform: uppercase;
 	font-size: 14px;
 	font-weight: 700;
-	color: #1EA69A;
+	color: #082969;
 }
 .latest-post-right-sidebar a i{
 	margin-left: 7px;
@@ -3246,7 +3237,7 @@ a.edufair-related-course-text {
     font-size: 25px;
 	margin-top: 0;
 	margin-bottom: 40px;
-	border-left: 5px solid #1EA69A;
+	border-left: 5px solid #082969;
 	padding-left: 20px;
 }
 .high-school-1x .latest-post-right-sidebar h3{
@@ -3284,7 +3275,7 @@ a.edufair-related-course-text {
 	
 }
 .single-latest-post .media-body a h4:hover{
-	color: #1EA69A;
+	color: #082969;
 }
 .high-school-1x .single-latest-post .media-body i,
 .high-school-1x .single-latest-post .media-body a h4:hover{
@@ -3294,7 +3285,7 @@ a.edufair-related-course-text {
 	font-size: 14px;
 }
 .single-latest-post .media-body i{
-	color: #1EA69A;
+	color: #082969;
 	padding-right: 5px;
 }
 
@@ -3306,13 +3297,13 @@ a.edufair-related-course-text {
     transition: all 0.3s ease;
 }
 .latest-post-right-sidebar a:hover{
-	color: #1EA69A;
+	color: #082969;
 }
 a.latest-post-read-more {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 500;
-    color: #1EA69A;
+    color: #082969;
 }
 
 /* Blog Author */
@@ -3375,7 +3366,7 @@ a.latest-post-read-more {
 	transition: all .3s ease;
 }
 .blog-author-share ul li a i:hover{
-	color: #1EA69A;
+	color: #082969;
 }
 .blog-author p{
 	font-size: 14px;
@@ -3403,7 +3394,7 @@ a.latest-post-read-more {
 	transition: all .3s ease;
 }
 .previous-post a:hover{
-    color: #1EA69A;
+    color: #082969;
 
 }
 .next-post{
@@ -3421,7 +3412,7 @@ a.latest-post-read-more {
 	transition: all .3s ease;
 }
 .next-post a:hover{
-    color: #1EA69A;
+    color: #082969;
 
 }
 
@@ -3454,7 +3445,7 @@ a.latest-post-read-more {
 	font-weight: 400;
 }
 .edufair-comment-body .media .media-body span i{
-	color: #1EA69A;
+	color: #082969;
 }
 .edufair-comment-body h4.media-heading{
 	color: #262626;
@@ -3521,7 +3512,7 @@ a.latest-post-read-more {
 }
 
 .edufair-shop-text {
-	background-color: #1EA69A;
+	background-color: #082969;
 	font-size: 13px;
 	padding: 10px 20px;
 	text-transform: uppercase;
@@ -3547,7 +3538,7 @@ a.latest-post-read-more {
 	transition: all .3s ease;
 }
 .edufair-shop-item-text a:hover{
-	color: #1EA69A;
+	color: #082969;
 }
 .edufair-shop-item-text p{
 	margin: 0;
@@ -3558,7 +3549,7 @@ a.latest-post-read-more {
 .edufair-onsale {
 	position: absolute;
 	top: 0;
-	background: #1EA69A;
+	background: #082969;
 	color: #f1f1f1;
 	padding: 5px 15px;
 	font-weight: 700;
@@ -3591,12 +3582,12 @@ a.latest-post-read-more {
 .edufair-nav-tabs > li.active > a:active,
 .edufair-nav-tabs > li.active > a:focus,
 .edufair-nav-tabs > li.active > a:hover{
-	border: 3px solid #1EA69A;
+	border: 3px solid #082969;
 }
 .edufair-pagination{}
 .edufair-pagination > li.active > a:hover,
 .edufair-pagination > li.active > a {
-	background-color: #1EA69A;
+	background-color: #082969;
 	border: 0;	
 }
 .course-pagination {
@@ -3617,7 +3608,7 @@ a.latest-post-read-more {
 }
 .edufair-pagination > li > a:hover{
 	color: #f1f1f1 !important;
-	background-color: #1EA69A;
+	background-color: #082969;
 }
 /*********************************************
 		Edufair Blog Right Sidebar
@@ -3646,12 +3637,12 @@ a.blog-right-sidebar-link h2{
 	transition: all ease .3s;
 }
 a.blog-right-sidebar-link h2:hover{
-	color: #1EA69A;
+	color: #082969;
 }
 .blog-right-sidebar-date{
     position: absolute;
     margin-top: -68px;
-    background: #1EA69A;
+    background: #082969;
     padding: 15px;
 	text-align: center;
 }
@@ -3712,7 +3703,7 @@ a.blog-right-sidebar-link h2:hover{
     left: 45%;
 }
 .university-countdown-1x:hover .edufair-main-title:before{
-	border-bottom: 3px solid #1EA69A;
+	border-bottom: 3px solid #082969;
 	width: 10%;
 }
 .university-countdown-1x .edufair-countdown {
@@ -4033,7 +4024,7 @@ span.edufair-mark,
 }
 .high-school-single-features .media-left i{
     font-size: 50px;
-    color: #1EA69A;
+    color: #082969;
     margin-right: 10px;
 }
 .high-school-single-features .media-body{}
@@ -4085,7 +4076,7 @@ span.edufair-mark,
     color: #262626;
     font-weight: 700;
     text-transform: uppercase;
-    border-left: 5px solid #1EA69A;
+    border-left: 5px solid #082969;
     padding-left: 20px;
     margin-bottom: 40px;
 	margin-top: 18px;
@@ -4110,7 +4101,7 @@ span.edufair-mark,
 	margin-right: 10px;
 }
 .university-2x .high-school-single-extra-features ul li a:hover {
-    color: #1EA69A;	
+    color: #082969;	
 }
 .high-school-fun-facts ul li a:hover,
 .high-school-single-extra-features ul li a:hover{
@@ -4133,7 +4124,7 @@ span.edufair-mark,
     padding-right: 15px;
 }
 .university-2x .hs-single-extra-features-left{ 
-    background: #1EA69A;
+    background: #082969;
     overflow: hidden;
 	padding-left: 0;
 	padding-right: 0;
@@ -4193,7 +4184,7 @@ a.left-color-button-2x{
     color: #262626;
     font-weight: 700;
     text-transform: uppercase;
-    border-left: 5px solid #1EA69A;
+    border-left: 5px solid #082969;
     padding-left: 20px;
     margin-bottom: 25px;
 }
@@ -4209,7 +4200,7 @@ a.left-color-button-2x{
 	transition: all .3s ease;
 }
 .high-school-single-info a h4:hover{
-	color: #1EA69A;
+	color: #082969;
 }
 .high-school-1x .high-school-single-info a h4:hover{
 	color: #ffb606;
@@ -4222,7 +4213,7 @@ a.left-color-button-2x{
     font-size: 14px;
 	font-weight: 500;
     text-transform: uppercase;
-    color: #1EA69A !important;
+    color: #082969 !important;
 }
 .high-school-1x .high-school-read-more{
 	color: #ffb606 !important;
@@ -4253,7 +4244,7 @@ a.left-color-button-2x{
 }
 .university-2x .high-school-fun-facts h3,
 .university-2x .high-school-events h3{
-	border-left: 5px solid #1EA69A;
+	border-left: 5px solid #082969;
 }
 .high-school-events .media{
     padding: 0 0 20px 0;
@@ -4271,7 +4262,7 @@ a.left-color-button-2x{
 }
 
 .university-2x .high-school-events .media-left{
-    border: 2px solid #1EA69A;
+    border: 2px solid #082969;
 }
 .high-school-events .media-left span:nth-child(1){
     display: block;
@@ -4291,7 +4282,7 @@ a.left-color-button-2x{
 .university-2x .high-school-events .media-body a h4:hover,
 .university-2x .high-school-events .media-left span:nth-child(1),
 .university-2x .high-school-events .media-left span:nth-child(2){
-	color: #1EA69A;
+	color: #082969;
 }
 .high-school-events .media-body{
     padding-left: 20px;
@@ -4580,7 +4571,7 @@ span.heading-divider:after{
 	margin-top: 10px;
     height: 50px;
 	width: 50px;
-    background: #1EA69A;
+    background: #082969;
 	border-radius: 5px;
 	border: 0;
     color: #f1f1f1;
@@ -4654,7 +4645,7 @@ span.heading-divider:after{
 	padding-left: 15px;
     margin-top: 0;
     margin-bottom: 30px;
-    border-left: 5px solid #1EA69A;
+    border-left: 5px solid #082969;
 
 }
 .all-course-left{
@@ -4827,7 +4818,7 @@ span.heading-divider:after{
 }
 .online-course-1x .is-sticky .edufair-nav .box i,
 .online-course-2x .is-sticky .edufair-nav .box i{
-	border: 1px solid #1EA69A;
+	border: 1px solid #082969;
 	color: 1EA69A;
 }
 .online-course-1x .is-sticky .modal,
@@ -4849,9 +4840,9 @@ span.heading-divider:after{
 .online-course-1x .box i,
 .online-course-2x .box i{
 	font-size: 10px;
-	color: #1EA69A; 
+	color: #082969; 
 	font-weight: 700;
-	border: 1px solid #1EA69A;
+	border: 1px solid #082969;
     border-radius: 50px;
     padding: 10px;
     margin-right: 5px;
@@ -4886,7 +4877,7 @@ span.heading-divider:after{
 }
 .online-course-2x .single-featured-category p{}
 .online-course-2x .featured-category-img{
-    background: #1EA69A;
+    background: #082969;
     border-radius: 50%;
     height: 140px;
     width: 140px;
@@ -4903,9 +4894,9 @@ span.heading-divider:after{
 	background: #0e504b;
 	border-radius: 50%;
 	transition: 0.3s ease;
-	-webkit-box-shadow: 0px 0px 0px 3px #1EA69A;
-	-moz-box-shadow: 0px 0px 0px 3px #1EA69A;
-	box-shadow: 0px 0px 0px 3px #1EA69A;
+	-webkit-box-shadow: 0px 0px 0px 3px #082969;
+	-moz-box-shadow: 0px 0px 0px 3px #082969;
+	box-shadow: 0px 0px 0px 3px #082969;
 }
 .online-course-2x .featured-category-img img{
     display: block;
@@ -4951,7 +4942,7 @@ span.heading-divider:after{
 .online-course-2x .online-course-nav>li.active>a:hover{
 	border: none;
 	padding: 0;
-	color: #1EA69A;
+	color: #082969;
 }
 .online-course-2x .course-teacher-1x{}
 .online-course-2x .edufair-events-1x {
@@ -5054,10 +5045,10 @@ span.heading-divider:after{
 	color: #7a7a7a;
 }
 .footer-bootom-left a:hover{
-	color: #1EA69A;
+	color: #082969;
 }
 .subscriber-content .footer-bootom-left a:hover{
-	color: #1EA69A;
+	color: #082969;
 }
 .footer-bootom-right{
 	float: right;
@@ -5083,7 +5074,7 @@ span.heading-divider:after{
 	padding-top: 4px;
 }
 .footer-bootom-right ul li a:hover{
-	color: #1EA69A;
+	color: #082969;
 }
 
 
@@ -5195,7 +5186,7 @@ span.heading-divider:after{
     float: right;
     right: 30px;
     padding: 10px 30px !important;
-    background: #1EA69A !important;
+    background: #082969 !important;
     color: #f1f1f1 !important;
     margin-top: 17px;
 }
@@ -5230,7 +5221,7 @@ span.heading-divider:after{
 	padding: 0;
     padding-left: 15px;
     text-align: left;
-    border-left: 5px solid #1EA69A;
+    border-left: 5px solid #082969;
 }
 .admission-form-1x .edufair-subscription-title-1x h3 {    
     font-weight: 700;
@@ -5350,7 +5341,7 @@ span.heading-divider:after{
 }
 .dropcaps span {
     float: left;
-    color: #1EA69A;
+    color: #082969;
     font-size: 75px;
     line-height: 60px;
     padding-top: 4px;
@@ -5359,7 +5350,7 @@ span.heading-divider:after{
 }
 .dropcaps strong {
     float: left;
-	background: #1EA69A;
+	background: #082969;
     color: #f1f1f1;
     font-size: 75px;
     line-height: 60px;
@@ -5384,7 +5375,7 @@ span.heading-divider:after{
 	background: #FF6962;
 }
 .blue{
-	background: #1EA69A;
+	background: #082969;
 }
 .orange{
 	background: #ffb606;
@@ -5422,7 +5413,7 @@ span.highlight-dark {
 /* large button style */
 .edufair-component-button,
 a.edufair-component-button {
-	background: #1EA69A;
+	background: #082969;
 	color: #f1f1f1;
     border-radius: 2px;
     display: inline-block;
@@ -5490,7 +5481,7 @@ a.edufair-component-button:hover:before {
 }
 .page-404-content span{
     font-size: 170px;
-    color: #1EA69A;
+    color: #082969;
     font-weight: 700;
     letter-spacing: 30px;
     overflow: hidden;
@@ -5509,7 +5500,7 @@ a.edufair-component-button:hover:before {
 	margin-bottom: 50px
 }
 .page-404-content h3 a{
-	color: #1EA69A;	
+	color: #082969;	
 	transition: all 0.3s ease;
 }
 .page-404-content h3 a:hover{

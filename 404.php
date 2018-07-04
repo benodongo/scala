@@ -321,7 +321,7 @@
 							<div class="col-md-12 footer-info">	
 								<div class="row">	
 									<div class="col-md-6 footer-info-left">
-										<p>All Rights Reserved <a href="#"> Scala Institute </a></p>
+                                        <p>&copy;  <?php echo date("Y"); ?> &nbsp;Scala Institute . <a href="#">All Rights Reserved </a></p>
 									</div>			
 									<div class="col-md-6 footer-info-right">
 										<ul>
